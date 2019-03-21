@@ -1,7 +1,5 @@
-
 // Проект 
 package app;
-
 
 // Мой тестовый поток
 public class thread_test extends Thread {
@@ -17,6 +15,7 @@ public class thread_test extends Thread {
         
         try {
             this.setSleep_time(this.sleep_time);
+            
             Thread.sleep(this.sleep_time);
             System.out.println("Привет! Мой номер потока " + getId() % 10 + ". Я спал " + this.sleep_time + " мс.");
         } 
