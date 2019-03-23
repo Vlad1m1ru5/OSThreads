@@ -1,7 +1,7 @@
-// Проект
+// Сборка проект
 package app;
 
 // Ресурсы синхронизации
 class thread_res {
-    int sync = 0;
+    long sync = 0;
 }
